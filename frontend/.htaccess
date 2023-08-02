@@ -1,0 +1,14 @@
+<Files *.ini>
+	Order deny,allow
+	Deny from all
+</Files>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteRule ^index\.php$ - [QSA,L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteRule ^ index.php [QSA,L]
+	RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
