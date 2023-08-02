@@ -1,0 +1,5 @@
+###################################
+# Redirects & Proxies Synchronize #
+###################################
+
+* * * * * /path/to/backend/_synchronize/action.sh >>/dev/null
