@@ -1,6 +1,6 @@
 # php-proxies-redirects
 
-**The simplest proxy and/or redirect engine made with php**
+**Maybe the simplest proxy and/or redirect engine made with php**
 
 Initial statement: I'm not a programer. I'm a Systems Engenieer.
 
