@@ -1,6 +1,8 @@
 # php-proxies-redirects
 
+
 **Maybe the simplest proxy and/or redirect engine made with php**
+
 
 Initial statement: I'm not a programer. I'm a Systems Engenieer.
 
@@ -11,3 +13,5 @@ By the time I only had access php and apache to do so and aditionally access to 
 I made the decision to share this, maybe it is useful to someone else too and / or easly adapted to some other use cases.
 
 So that's it: maybe a awfull code but a working one.
+
+Big help and initial inspiration from this proxy.php file at https://gist.github.com/iovar/9091078
